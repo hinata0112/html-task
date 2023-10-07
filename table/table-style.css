@@ -1,0 +1,22 @@
+@charset "utl-8";
+
+body {
+    font-family : "HGS教科書体", serif;
+    font-size : 20px;
+}
+ table, tr, td, th {
+    border : solid 3px black;
+}
+table, th, td{
+    border-collapse: collapse;
+}
+table {
+    margin : auto;
+}
+thead {
+    background-color : #87CEFA;
+}
+
+img {
+    width : 250px;
+}

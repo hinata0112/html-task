@@ -1,0 +1,11 @@
+@charset "utl-8";
+
+.text-blue {
+    background-color : rgb(139, 139, 245);
+}
+#bg-orange {
+    color : orange;
+}
+#bg-blue {
+    color : #000ff0;
+}

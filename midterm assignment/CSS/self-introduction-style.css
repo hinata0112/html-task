@@ -1,0 +1,41 @@
+/*記述済みの部分は変更しないでください！*/
+
+@charset "utf-8";
+
+body {
+    min-width: 700px;
+    font-size: 1.1rem
+}
+
+
+.mark-list {
+    list-style: "★";
+}
+
+.list_tag {
+    font-size: 160%;
+    padding: 16px 28px;
+    margin-left: 40px;
+}
+
+.self_jpg {
+
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.self_jpg img {
+    border: solid 2px black;
+    width: 100%;
+}
+
+.self_hr {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.mark-list p {
+    margin: 30px 0 40px 50px;
+    font-size: 1.2rem;
+}

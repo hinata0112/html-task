@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+body {
+    min-width: 700px;
+    font-size: 1.1rem
+}
+
+.h2_tag {
+    text-align: center;
+    font-size: 150%;
+    padding: 10px 28px;
+    margin: 20px 0 0px 0;
+}
+
+.firstnews {
+    margin: 0% 20%;
+}
+
+.news_p {
+    margin: 0;
+}
+
+.news_div {
+    margin: 10px 20% 10%;
+    font-size: 1.25rem;
+    line-height: 1.8888;
+    letter-spacing: 0.05rem;
+    display: flow-root;
+}
+
+.float_left {
+    float: left;
+    width: 60%;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.news2_img img {
+    width: 100%;
+    height: auto;
+}
+
+/* 目次とaside */
+
+.page_index1 {
+    display: flex;
+}
+
+.page_aside {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.page_aside p {
+    margin: 20px 50px;
+}
+
+.aside {
+    width: 40%;
+}
+
+.aside img {
+    margin: 0 35%;
+    width: 95%;
+    height: 90%;
+}
+
+/* ホーム写真 */
+.home_ipg {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.home_ipg img {
+    width: 100%;
+    height: 100%;
+}
+
+.home_ipg p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    top: 16%;
+    left: 12%;
+    font-family: 'Georgia', serif;
+}
+
+/* ホーム写真終了 */
+
+/* 目次 */
+
+.page_index a {
+
+    color: black;
+
+}
+
+.page_index a:hover {
+    text-decoration: none;
+}
+
+.page_index {
+    width: 100%;
+    border: 2px solid #DEDEDE;
+}
+
+.page_index p {
+    font-size: 125%;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 18px;
+    border-bottom: 2px solid #DEDEDE;
+    margin-bottom: 18px;
+}
+
+
+/* topに戻るボタン */
+
+#page_top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: black;
+    opacity: 0.6;
+}
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#page_top a::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}

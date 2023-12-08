@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+    min-width: 700px;
+    font-size: 1.1rem
+}
+
+.main_width {
+    padding: 0 100px;
+}
+
+h1 {
+    margin: 40px 0 10px;
+}
+
+h2 {
+    font-size: 150%;
+    padding: 16px 28px;
+    border-left: 3px solid #002F7B;
+}
+
+.main_width p {
+    line-height: 1.875;
+}
+
+/* 目次とaside */
+
+.page_aside {
+    display: flex;
+}
+
+.photograph {
+    width: 40%;
+}
+
+.photograph img {
+    width: 95%;
+    height: 90%;
+    padding: 5%;
+}
+
+/* 目次 */
+
+.page_index a {
+    color: black;
+}
+
+.page_index a:hover {
+    text-decoration: none;
+}
+
+.page_index {
+    width: 50%;
+    border: 2px solid #DEDEDE;
+    padding: 32px;
+
+}
+
+.page_index p {
+    font-size: 125%;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 18px;
+    border-bottom: 2px solid #DEDEDE;
+    margin-bottom: 18px;
+}
+
+/* データセンターの設備 */
+
+.modttl_h3 {
+    font-size: 125%;
+    padding: 16px 20px;
+    margin: auto;
+    background: #F2F6FC;
+}
+
+.Facility p {
+    padding: 10px 10px 50px;
+}
+
+/* データセンターの機能・役割 */
+.function {
+    padding: 0 0 50px;
+}
+
+/* データセンターのメリット */
+
+.Meritto_h3 {
+    font-size: 125%;
+    padding: 16px 20px;
+    margin: auto;
+    background: #F2F6FC;
+}
+
+.Meritto p {
+    padding: 10px 10px 50px;
+}
+
+/* まとめ */
+
+.summary_p {
+    padding: 10px 10px 50px;
+}
